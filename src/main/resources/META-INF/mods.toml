@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "MIT"
+
+[[mods]]
+modId = "helmetoverlay"
+version = "1.0"
+displayName = "Helmet Overlay"
+displayURL = "https://github.com/kregerl/Helmet-Overlay"
+issueTrackerURL = "https://github.com/kregerl/Helmet-Overlay/issues"
+logoFile = "HelmetOverlayLogo.png"
+credits = "u/MrBeaver212"
+authors = "AreUThreateningMe"
+description = '''
+	Allows users to apply an overlay to specific helmets with the help of a resourcepack'''
+[[dependencies.helmetoverlay]]
+modId = "forge"
+mandatory = true
+versionRange = "[36,)"
+ordering = "AFTER"
+side = "CLIENT"
+
+[[dependencies.helmetoverlay]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5]"
+ordering = "AFTER"
+side = "BOTH"
